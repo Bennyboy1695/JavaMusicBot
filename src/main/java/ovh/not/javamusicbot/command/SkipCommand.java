@@ -12,7 +12,7 @@ public class SkipCommand extends Command {
     public void on(Context context) {
         GuildMusicManager musicManager = GuildMusicManager.get(context.event.getGuild());
         if (musicManager == null || musicManager.player.getPlayingTrack() == null) {
-            context.reply("No music is playing on this guild!");
+            context.reply("No music is playing on this server!");
             return;
         }
         musicManager.scheduler.next(null);

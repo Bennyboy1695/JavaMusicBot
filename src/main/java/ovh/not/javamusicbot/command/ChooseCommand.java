@@ -18,7 +18,7 @@ public class ChooseCommand extends Command {
     public void on(Context context) {
         Member member = context.event.getMember();
         if (!commandManager.selectors.containsKey(member)) {
-            context.reply("You do not have a selector in this guild!");
+            context.reply("You do not have a selector in this server!");
             return;
         }
         Selection<AudioTrack, String> selection = commandManager.selectors.get(member);

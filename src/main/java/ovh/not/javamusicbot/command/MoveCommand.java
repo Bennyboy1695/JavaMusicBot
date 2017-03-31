@@ -10,7 +10,7 @@ import java.util.List;
 
 public class MoveCommand extends Command {
     public MoveCommand() {
-        super("move");
+        super("move", "goto");
     }
 
     @Override

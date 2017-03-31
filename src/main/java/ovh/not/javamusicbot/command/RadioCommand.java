@@ -30,7 +30,7 @@ public class RadioCommand extends Command {
                 builder.append(", ");
             }
         }
-        builder.append("\n\nNeed another station? Join the support server with the link in `!!!support`.");
+        builder.append("\n\nNeed another station? Ask Bennyboy1695 to add it!");
         this.usageMessage = builder.toString();
     }
 

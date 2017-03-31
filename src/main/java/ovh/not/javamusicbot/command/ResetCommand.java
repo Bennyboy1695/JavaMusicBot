@@ -18,7 +18,7 @@ public class ResetCommand extends Command {
             musicManager.close();
             context.reply("Reset GuildMusicManager!");
         } else {
-            context.reply("This guild does not have a GuildMusicManager.");
+            context.reply("This server does not have a GuildMusicManager.");
         }
     }
 }
